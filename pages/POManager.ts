@@ -9,6 +9,8 @@ import { UpdateInfo } from './UpdateInfo';
 import { RequestLoan } from './RequestLoan';
 import { LogoutPage } from './LogoutPage';
 
+
+
 export class POManager {
     private registerPage: RegisterPage;
     private loginPage: LoginPage;
@@ -19,6 +21,7 @@ export class POManager {
     private updateInfo: UpdateInfo;
     private requestLoan: RequestLoan;
     private logout: LogoutPage;
+   
 
 
     constructor(private page: Page) {
@@ -32,6 +35,7 @@ export class POManager {
         this.updateInfo = new UpdateInfo(page);
         this.requestLoan = new RequestLoan(page);
         this.logout = new LogoutPage(page);
+
     }
 
     // Getter methods to access page objects

@@ -33,7 +33,7 @@
 //   ],
 // });
 
-
+// ========================================================================================================================
 
 import { defineConfig } from '@playwright/test';
 import { OrtoniReportConfig } from 'ortoni-report';
@@ -84,3 +84,5 @@ export default defineConfig({
   ],
   reporter: [['ortoni-report', ortoniReportConfig]], // Integrate Ortoni Report
 });
+
+

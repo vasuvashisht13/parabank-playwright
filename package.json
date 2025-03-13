@@ -11,7 +11,9 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
     "@playwright/test": "^1.50.1",
-    "ortoni-report": "^2.0.9"
+    "ortoni-report": "^2.0.9",
+    "pw-api-plugin": "^1.2.0"
   }
 }
